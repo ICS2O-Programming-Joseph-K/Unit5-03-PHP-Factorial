@@ -26,9 +26,8 @@
     <!-- function -->
     <form action="./results.php" method="post" target="result">
       <!-- text-field -->
-      <label for="number">Number:</label>
-      <input type="number" id="number" placeholder="Enter Number" min="0"><br><br>
-      <!-- button -->
+      <label for="number">Number: </label>
+      <input type="number" step="1" min="0" max="10000" name="number" id="number" placeholder="Enter number"><br><br>
       <input type="submit" value="Calculate">
     </form> <br>
     <!-- Create a space where the information will be displayed -->

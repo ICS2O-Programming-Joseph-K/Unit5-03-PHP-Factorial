@@ -14,7 +14,7 @@ do {
   $userNum = $userNum - 1;
 
 } while ($userNum > 0);
-
+}
 
 
 //display the answer
